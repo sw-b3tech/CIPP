@@ -36,71 +36,72 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "edRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/AddStandardTemplate",
-      "allowedRoles": ["admin"]
+      "edRoles": ["admin"]
     },
     {
       "route": "/api/RemoveStandardTemplate",
-      "allowedRoles": ["admin"]
+      "edRoles": ["admin"]
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "edRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "edRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/RemoveStandard",
-      "allowedRoles": ["admin"]
+      "edRoles": ["admin"]
     },
     {
       "route": "/api/add*",
-      "allowedRoles": ["admin", "editor"]
+      "edRoles": ["admin", "editor"]
     },
     {
       "route": "/api/edit*",
-      "allowedRoles": ["admin", "editor"]
+      "edRoles": ["admin", "editor"]
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly"]
+      "edRoles": ["admin", "editor", "readonly"]
     },
     {
       "route": "/api/ExecExcludeTenant",
-      "allowedRoles": ["admin"]
+      "edRoles": ["admin"]
     },
     {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor"]
+      "edRoles": ["admin", "editor"]
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "editor"]
+      "edRoles": ["admin", "editor"]
     },
     {
       "route": "/cipp/*",
-      "allowedRoles": ["admin"]
+      "edRoles": ["admin"]
     },
     {
       "route": "/tenant/standards/*",
-      "allowedRoles": ["admin"]
+      "edRoles": ["admin"]
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+      "edRoles": ["admin", "editor", "readonly", "reader"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "edRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader"],
+      "allowedForwardedHosts": ["www.cipp.b3technology.com"]
     }
   ],
   "navigationFallback": {
