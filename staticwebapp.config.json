@@ -100,7 +100,8 @@
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader"],
+      "allowedForwardedHosts": ["www.cipp.b3technology.com"]
     }
   ],
   "navigationFallback": {
