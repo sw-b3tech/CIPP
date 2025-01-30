@@ -60,7 +60,7 @@
     },
     {
       "route": "/api/add*",
-      "edRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "editor"]
     },
     {
       "route": "/api/edit*",
