@@ -100,7 +100,7 @@
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
   ],
   "navigationFallback": {
